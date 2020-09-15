@@ -1,0 +1,28 @@
+:root {
+    /* * TEXT PROPERTIES */
+    --NavBar-logo-text-size: 1.7em;
+
+    /* * COLOURS */
+    --NavBar-bg: #d2d5db;
+    --NavBar-active-color: #2F8F47;
+    --NavBar-inactive-color: #000000;
+
+    --no-bill-products-text: grey;
+
+    --colored-bg-text: #FFFFFF;
+
+    --text-box-border-color: #DEDDDD;
+
+    --table-border-color: #DEDDDD;
+    --table-odd-bg: #F0F0F0BE;
+    
+    --hr-color: #E4E4E4;
+    
+    --colored-btn-text: #FFFFFF;
+    --colored-btn-border: #FFFFFF;
+    --delete-btn-bg: #FF0000;
+
+    --billing-inner-border: #DEDDDD;
+
+   
+}

@@ -1,0 +1,147 @@
+.bills-table-section {
+    padding: 0 1%;
+    margin: 1em 0;
+}
+
+.bills-table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.bills-table-heading-row {
+    background: linear-gradient(156deg, rgba(0,106,53,1) 0%, rgba(9,121,48,1) 19%, rgba(0,212,255,1) 100%);
+    height: 3.5em;
+    color: var(--colored-bg-text);
+}
+
+.bills-table-heading-cell {
+    text-align: center;
+    
+}
+
+.sno {
+    width: 10%;
+}
+
+.billId {
+    width: 40%;
+}
+
+.TOP {
+    width: 30%;
+}
+
+.grandTotal {
+    width: 20%;
+}
+
+.bills-table-data-row {
+    height: 3.5em;
+}
+
+.bills-table-data-row:nth-child(odd) {
+    background-color: var(--table-odd-bg);
+}
+
+.bills-table-cell {
+    text-align: center;
+    border-bottom: 1px solid  var(--table-border-color);
+}
+
+.bills-modal-head-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bills-modal-head-section-text {
+    font-size: 1.7em;
+}
+
+.bills-modal-head-section-close-btn {
+    background: linear-gradient(155deg, rgba(255,141,0,1) 0%, rgba(255,16,0,1) 100%);
+    border: 0;
+    border-radius: 55%;
+    padding: 0 8px;
+    color: var(--colored-btn-text);
+}
+
+.bills-modal-hr {
+    width: 98%;
+    border-top:1px solid var(--hr-color);
+}
+
+.bills-modal-details-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bills-modal-table-section {
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.bills-modal-table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.bills-modal-table-heading-row {
+    background: linear-gradient(156deg, rgba(0,106,53,1) 0%, rgba(9,121,48,1) 19%, rgba(0,212,255,1) 100%);
+    height: 3.5em;
+    color: var(--colored-bg-text);
+}
+
+.bills-modal-table-heading-cell {
+    text-align: center;
+    
+}
+
+.prod-sno {
+    width: 10%;
+}
+
+.prod-name {
+    width: 40%;
+}
+
+.prod-qty {
+    width: 20%;
+}
+
+.prod-total {
+    width: 30%;
+}
+
+.bills-modal-table-data-row {
+    height: 3.5em;
+}
+
+.bills-modal-table-data-row:nth-child(odd) {
+    background-color: var(--table-odd-bg);
+}
+
+.bills-modal-table-cell {
+    text-align: center;
+    border-bottom: 1px solid  var(--table-border-color);
+}
+
+
+.bills-modal-grand-total-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1.5em 0;
+}
+
+/* ? COMMON PROPERTIES */
+button, button:active, button:hover {
+    outline: none;
+    cursor: pointer;
+}
